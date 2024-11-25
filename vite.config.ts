@@ -19,6 +19,10 @@ export default defineConfig({
           src: path.resolve(__dirname, "./src/assets/icons"),
           dest: "./assets",
         },
+        {
+          src: './node_modules/@beeq/core/dist/beeq/svg/*',
+          dest: 'svg',
+        },
       ],
     }),
     nodePolyfills({ include: ["os"] }),

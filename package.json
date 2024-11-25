@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@beeq/core": "^1.7.0",
+    "@beeq/react": "^1.7.0",
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -24,6 +26,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup-plugin-node-polyfills": "^0.2.1",
+    "styled-components": "^6.1.13",
     "vite-plugin-node-polyfills": "^0.16.0",
     "vite-plugin-static-copy": "^0.17.0",
     "vite-tsconfig-paths": "^4.2.1"

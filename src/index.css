@@ -1,3 +1,4 @@
+@import "@beeq/core/dist/beeq/beeq.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +8,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
+  background-color: red;
 }
 
 #root {
@@ -16,5 +18,5 @@ body {
   text-align: center;
   width: 460px;
   height: auto;
-  background-color: white;
+  background-color: transparent;
 }
